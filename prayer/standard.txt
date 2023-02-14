@@ -1,6 +1,8 @@
-Prayers use a counter system; every game tick, the sum of the 'Drain Rates' of active prayers will be added to the counter. When the counter reaches (or exceeds) 60, it will be reduced by as many multiples of 60 without going below 0, and the amount of multiples is your Prayer point drain.
+Prayers use a counter system; every game tick, the sum of the 'Drain Rates' of active prayers will be added to the counter.
+When the counter reaches (or exceeds) 60, it will be reduced by as many multiples of 60 without going below 0, and the amount of multiples is your Prayer point drain.
 
-Prayer bonuses will increase the threshold of the counter system - by 2 point per 1 prayer bonus. For example, a Prayer bonus of 10 will use a counter system which has a threshold of 80 instead of 60.
+Prayer bonuses will increase the threshold of the counter system - by 2 point per 1 prayer bonus.
+For example, a Prayer bonus of 10 will use a counter system which has a threshold of 80 instead of 60.
 
 Prayers will add to the counter (and thus invoke Prayer drain) at the start of the game tick that they are activated, thus 1-tick Prayer Flicking is no longer effective.
 
@@ -90,5 +92,12 @@ Standard Prayers (Prayer drain is shown in brackets)
     Boosted skill levels last 1.5x longer.
   66 - Remission (5)
     Incoming Disease and Poison are 20% less effective. Venom damage afflicted on you increases at half the rate; increasing by 1 per hit rather than 2.
+
+  63 - Chivalry (15) [King's Ransom]
+    Increases your visible Attack, Strength, and Defence levels by 6. If you roll an unsuccessful hit, you will hit a 1 instead of a 0.
+  69 - Piety (18) [King's Ransom]
+    Increases your visible Attack, Strength, and Defence levels by 7. If you roll an unsuccessful hit, you will hit a 1 instead of a 0. All incoming damage have their maximum hit reduced by 1.
+  75 - Fanaticism (21)
+    Increases your visible Attack, Strength, and Defence levels by 8. If you roll an unsuccessful hit, you will hit a 1 instead of a 0. All incoming damage have their maximum hit reduced by 1. Every 3rd melee attack gains +12 Melee Strength.
 
 todo - finish the other ones
