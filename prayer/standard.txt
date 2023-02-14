@@ -1,0 +1,94 @@
+Prayers use a counter system; every game tick, the sum of the 'Drain Rates' of active prayers will be added to the counter. When the counter reaches (or exceeds) 60, it will be reduced by as many multiples of 60 without going below 0, and the amount of multiples is your Prayer point drain.
+
+Prayer bonuses will increase the threshold of the counter system - by 2 point per 1 prayer bonus. For example, a Prayer bonus of 10 will use a counter system which has a threshold of 80 instead of 60.
+
+Prayers will add to the counter (and thus invoke Prayer drain) at the start of the game tick that they are activated, thus 1-tick Prayer Flicking is no longer effective.
+
+
+
+Standard Prayers (Prayer drain is shown in brackets)
+  1 - Thick Skin (3)
+    Increases your visible Defence level by 1. If the target rolls a successful hit, its max hit has a 20% chance of being reduced by 1.
+  13 - Rock SKin (6)
+    Increases your visible Defence level by 2. If the target rolls a successful hit, its max hit has a 25% chance of being reduced by 1.
+  25 - Steel Skin (9)
+    Increases your visible Defence level by 3. If the target rolls a successful hit, its max hit has a 33% chance of being reduced by 1.
+  37 - Titanic Skin (12)
+    Increases your visible Defence level by 4. If the target rolls a successful hit, its max hit has a 50% chance of being reduced by 1.
+  49 - Immovable Skin (15)
+    Increases your visible Defence level by 5. If the target rolls a successful hit, its max hit has a 66% chance of being reduced by 1.
+
+  3 - Clarity of Thought (3)
+    Increases your visible Attack level by 1. If you roll an unsuccessful hit, you have a 16.7% chance of hitting a 1 instead of a 0.
+  15 - Improved Reflexes (6)
+    Increases your visible Attack level by 2. If you roll an unsuccessful hit, you have a 20% chance of hitting a 1 instead of a 0.
+  27 - Incredible Reflexes (9)
+    Increases your visible Attack level by 3. If you roll an unsuccessful hit, you have a 25% chance of hitting a 1 instead of a 0.
+  39 - Advanced Precision (12)
+    Increases your visible Attack level by 4. If you roll an unsuccessful hit, you have a 33% chance of hitting a 1 instead of a 0.
+  51 - Attack Specialist (15)
+    Increases your visible Attack level by 5. If you roll an unsuccessful hit, you have a 50% chance of hitting a 1 instead of a 0.
+
+  5 - Burst of Strength (3)
+    Increases your visible Strength level by 1. If you roll a successful hit, that hit is considered with +2 bonus Melee Strength.
+  17 - Superhuman Strength (6)
+    Increases your visible Strength level by 2. If you roll a successful hit, that hit is considered with +3 bonus Melee Strength.
+  29 - Ultimate Strength (9)
+    Increases your visible Strength level by 3. If you roll a successful hit, that hit is considered with +5 bonus Melee Strength.
+  41 - Titanic Strength (12)
+    Increases your visible Strength level by 4. If you roll a successful hit, that hit is considered with +6 bonus Melee Strength.
+  53 - Unstoppable Strength (15)
+    Increases your visible Strength level by 5. If you roll a successful hit, that hit is considered with +8 bonus Melee Strength.
+
+  7 - Sharp Eye (3)
+    Increases your visible Ranged level by 1. If you roll a successful hit, that hit is considered with +2 bonus Ranged Strength.
+  19 - Hawk Eye (6)
+    Increases your visible Ranged level by 2. If you roll a successful hit, that hit is considered with +3 bonus Ranged Strength.
+  31 - Eagle Eye (9)
+    Increases your visible Ranged level by 3. If you roll a successful hit, that hit is considered with +5 bonus Ranged Strength.
+  43 - Super Eye (12)
+    Increases your visible Ranged level by 4. If you roll a successful hit, that hit is considered with +6 bonus Ranged Strength.
+  55 - Mega Eye (15)
+    Increases your visible Ranged level by 5. If you roll a successful hit, that hit is considered with +8 bonus Ranged Strength.
+
+  9 - Mystic Will (3)
+    Increases your Magic Accuracy and Magic Defence by 5%. Spellbooks gain +2% Magic Damage.
+  21 - Mystic Lore (6)
+    Increases your Magic Accuracy and Magic Defence by 10%. Spellbooks gain +3.5% Magic Damage.
+  33 - Mystic Might (9)
+    Increases your Magic Accuracy and Magic Defence by 15%. Spellbooks gain +5% Magic Damage. Powered Staves gain +2.5% Magic Damage.
+  45 - Mystic Flair (12)
+    Increases your Magic Accuracy and Magic Defence by 20%. Spellbooks gain +6.5% Magic Damage. Powered Staves gain +5% Magic Damage.
+  57 - Mystic Affinity (15)
+    Increases your Magic Accuracy and Magic Defence by 25%. Spellbooks gain +8% Magic Damage. Powered Staves gain +8% Magic Damage.
+
+  11 - Rapid Restore (1)
+    Increases the restore rate of skills except for Hitpoints and Prayer by 100% (2x).
+  23 - Rapid Heal (2)
+    Increases the restore rate of your Hitpoints by 100%.
+  35 - Protect Item (2)
+    You keep 1 extra item when you die, as long as this is active.
+  47 - Hyper Restore (3)
+    Increases the restore rate of skills except for Hitpoints and Prayer by 200% (3x).
+  59 - Protect Item (4)
+    Increases the restore rate of your Hitpoints by 200% (3x).
+
+  32 - Protect from Magic (12)
+    Blocks most sources of Magic Damage; reducing it fully. Works less effectively on bosses, and only grants 40% protection in PvP.
+  38 - Protect from Missiles (12)
+    Blocks most sources of Ramged Damage; reducing it fully. Works less effectively on bosses, and only grants 40% protection in PvP.
+  44 - Protect from Melee (12)
+    Blocks most sources of Melee Damage; reducing it fully. Works less effectively on bosses, and only grants 40% protection in PvP.
+
+  50 - Retribution (3)
+    Upon death, you deal damage to targets within 1 tile from you equal to 25% of your maximum Prayer level, rounded down.
+  54 - Redemption (6)
+    Upon being hit to below 10% of your maximum Hitpoints, you drain the rest of your Prayer Points in return of restoring Hitpoints equal to 25% of your maximum Prayer Level, rounded down.
+  58 - Smite (18)
+    For every 4 points of damage dealt to your target, they lose 1 Prayer point.
+  62 - Preserve (2) [Torn Prayer Scroll (Chambers of Xeric)]
+    Boosted skill levels last 1.5x longer.
+  66 - Remission (5)
+    Incoming Disease and Poison are 20% less effective. Venom damage afflicted on you increases at half the rate; increasing by 1 per hit rather than 2.
+
+todo - finish the other ones
