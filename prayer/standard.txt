@@ -100,4 +100,11 @@ Standard Prayers (Prayer drain is shown in brackets)
   75 - Fanaticism (21)
     Increases your visible Attack, Strength, and Defence levels by 8. If you roll an unsuccessful hit, you will hit a 1 instead of a 0. All incoming damage have their maximum hit reduced by 1. Every 3rd melee attack gains +12 Melee Strength.
 
+  65 - Austerity (15)
+    Increases your visible Ranged and Defence levels by 6. If you roll a successful hit, that hit has a 33% chance of being considered with +10 bonus Ranged Strength.
+  71 - Rigour (18) [Dexterous Prayer Scroll (Chambers of Xeric)]
+    Increases your visible Ranged and Defence levels by 7. If you roll a successful hit, that hit has a 33% chance of being considered with +11 bonus Ranged Strength. Successful hits have a 33% chance of not consuming ammunition; stacking on top of any of Ava's devices.
+  77 - Absolutism (21) [Dexterous Prayer Scroll (Chambers of Xeric)]
+    Increases your visible Ranged and Defence levels by 8. If you roll a successful hit, that hit has a 33% chance of being considered with +12 bonus Ranged Strength. Successful hits have a 50% chance of not consuming ammunition; stacking on top of any of Ava's devices.
+
 todo - finish the other ones
