@@ -48,9 +48,9 @@ Standard Prayers (Prayer drain is shown in brackets)
     Increases your visible Ranged level by 2. If you roll a successful hit, that hit is considered with +3 bonus Ranged Strength.
   31 - Eagle Eye (9)
     Increases your visible Ranged level by 3. If you roll a successful hit, that hit is considered with +5 bonus Ranged Strength.
-  43 - Super Eye (12)
+  43 - Owl Eye (12)
     Increases your visible Ranged level by 4. If you roll a successful hit, that hit is considered with +6 bonus Ranged Strength.
-  55 - Mega Eye (15)
+  55 - Super Eye (15)
     Increases your visible Ranged level by 5. If you roll a successful hit, that hit is considered with +8 bonus Ranged Strength.
 
   9 - Mystic Will (3)
