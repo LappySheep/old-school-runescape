@@ -107,4 +107,10 @@ Standard Prayers (Prayer drain is shown in brackets)
   77 - Absolutism (21) [Dexterous Prayer Scroll (Chambers of Xeric)]
     Increases your visible Ranged and Defence levels by 8. If you roll a successful hit, that hit has a 33% chance of being considered with +12 bonus Ranged Strength. Successful hits have a 50% chance of not consuming ammunition; stacking on top of any of Ava's devices.
 
-todo - finish the other ones
+  67 - Entranced (15)
+    Increases your Magic Accuracy and Magic Defence by 25%. Spellbooks gain +10% Magic Damage. Powered Staves gain +8% Magic Damage.
+  73 - Augury (18) [Arcane Prayer Scroll (Chambers of Xeric)]
+    Increases your Magic Accuracy and Magic Defence by 30%. Spellbooks gain +12.5% Magic Damage. Powered Staves gain +10% Magic Damage. All spell casts have a minimum hit of 1.
+  79 - Omen (21) [Arcane Prayer Scroll (Chambers of Xeric)]
+    Increases your Magic Accuracy and Magic Defence by 35%. Spellbooks gain +15% Magic Damage. Powered Staves gain +12.5% Magic Damage. All spell casts have a minimum hit of 1. Successful magic attacks against a target increases your Magic Damage bonus additively by 0.5% each against them, stacking up to another 10%.
+      Bonus applies additively with the Prayer's Magic Damage bonus, and only applies if it is active.
