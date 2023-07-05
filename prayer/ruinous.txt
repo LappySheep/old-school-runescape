@@ -1,0 +1,132 @@
+Gaunt Viscera [60 Prayer]
+  Cannot be used with Ruinous Covenant.
+  While active, incoming attacks which drain your stats (except Prayer and Hitpoints) have their damage reduced (stacks with other forms of damage reduction) by 80%, at the cost of twice the attacks' stat drains.
+
+Rejuvenation [61 Prayer]
+  While active, Hitpoints and Skills (except Prayer) regenerate at 2x the normal rate.
+
+
+
+Ruinous Grace [63 Prayer]
+  While active, other prayers have their drain rate halved. However, this prayer drains a flat 1 prayer point every 2 ticks, which cannot be reduced via a Prayer Bonus.
+  The drain rate of Ruinous Grace is reduced from 1 point per 2 ticks to 1 point per 3 ticks if your run is enabled.
+
+
+
+Wrath (Overhead) [66 Prayer]
+  While active, if you die, you create a 3x3 explosion - dealing 15% of your missing Prayer Points as damage.
+  If the explosion kills the target which killed you, you are revived with [1 + 4% maximum Hitpoints] HP and 1 Prayer Point.
+
+
+
+Cruor's Vow [69 Prayer]
+  While active, attacks that deal at least 75% of your maximum hit, restore 4% of your missing health back (rounded down). If triggered, you drain 1.5 additional Prayer Points on that tick.
+
+
+
+Siphon Magic (Overhead) [72 Prayer]
+  While active, you reduce incoming magic damage fully and have a 25% chance to restore 1 Hitpoint.
+  If you take non-magic damage from sources that may be fully reduced by their respective Siphon Prayer, that damage is multiplied by 1.5x.
+
+Siphon Ranged (Overhead) [73 Prayer]
+  While active, you reduce incoming ranged damage fully and have a 25% chance to restore 1 Hitpoint.
+  If you take non-raned damage from sources that may be fully reduced by their respective Siphon Prayer, that damage is multiplied by 1.5x.
+
+Siphon Melee (Overhead) [74 Prayer]
+  While active, you reduce incoming melee damage fully and have a 25% chance to restore 1 Hitpoint.
+  If you take non-melee damage from sources that may be fully reduced by their respective Siphon Prayer, that damage is multiplied by 1.5x.
+
+
+
+Glacies' Vow [76 Prayer]
+  While active, your successful hits have a 33% chance of adding 1 tick to your target's attack delay.
+  You cannot delay the next incoming attack by more than 1 tick.
+
+
+
+Virulent Penetration (Overhead) [77 Prayer]
+  While active, 15% of damage dealt is granted as 'temporary health'.
+  Chip damage taken (NOT off-prayer damage) is dealt towards this temporary health bar first, before your main Hitpoints.
+  Maximum of 25 temporary health. Temporary health is reset to 0 if you have not been attacked (regardless of damage) in 10s.
+
+
+
+Agonise [79 Prayer]
+  While active, gain bonuses:
+    +17.5% Ranged Attack
+    +20% Ranged Strength (increased to +22% with a Necklace of Anguish equipped)
+  Additionally, successful Ranged attacks have an 20% chance of having their damage rolled twice if Agonise has been active for at least 10 ticks in a row.
+
+Misery [81 Prayer]
+  While active, gain bonuses:
+    +22.5% Magic Attack
+    +2% Magic Damage (increased to +2.5% with a Tormented Bracelet equipped)
+  Additionally, successful Magic attacks have an 20% chance of having their damage rolled twice if Misery has been active for at least 10 ticks in a row.
+
+Mutilate [83 Prayer]
+  While active, gain bonuses:
+    +20% Attack
+    +20% Strength (increased to +22% with an Amulet of Torture equipped)
+  Additionally, successful Melee attacks have an 20% chance of having their damage rolled twice if Mutilate has been active for at least 10 ticks in a row.
+
+
+
+Fumus' Vow [85 Prayer]
+  While active, melee attacks build 1 stack per hit. At 4 stacks (requiring this Vow to be active), your next melee attack consumes stacks to roll accuracy between your chosen melee style and your target's weakest melee defence stat.
+
+
+
+Impel (Overhead) [87 Prayer]
+  While active, attacks that deal at least 75% of your maximum hit are pushed back 1 tile (based on angle between you and your target), if they are:
+    - able to move there
+    - allowed to move, in general (excluding if the target is stunned).
+
+Hinder (Overhead) [88 Prayer]
+  While active, targets that are in combat with you are only able to move towards you (if within a 9x9 area) at walking-speed.
+
+
+
+Umbra's Vow [90 Prayer]
+  While active, attacks that drain your target's stats are 15% more effective.
+  Triggering Umbra's Vow drains 20 Prayer Points (not affected by Prayer Bonus).
+
+
+
+Metabolic Boost [92 Prayer]
+  Cannot be used with Synthesise or Adrenal Glands.
+  While active, your Run Energy is drained 33% slower (multiplicative with the 'stamina' effect).
+  Successful hits convert 0.4 Prayer Points into 1.5 Run Energy.
+
+Adrenal Glands [93 Prayer]
+  Cannot be used with Metabolic Boost or Synthesise.
+  While active, dealing at least 80% of your maximum hit reduces your attack delay by 1 tick for 1 hit. If you do not switch weapons, this boost lasts for 3 hits instead (cancelling entirely if you switch after the first).
+
+Synthesise [94 Prayer]
+  Cannot be used with Metabolic Boost or Adrenal Glands.
+  While active, your Run Energy is drained by 2% every tick (affected by the 'stamina' effect). However, visible boosts to your combat skills last twice as long.
+
+
+
+Maleficent Tumour (Overhead) [95 Prayer]
+  While active, killing a target creates a 3x3 explosion around them for 10% of your maximum hit (rolling against magic defence) - at the cost of 30 Prayer Points.
+  Targets damaged by the explosion are marked for 12 seconds; if they die during this time, they create an explosion themselves for the same damage as the initial one, which can mark even more targets.
+
+Hefty Soul [96 Prayer]
+  While active, gain bonus Melee Strength on your hits, equal to:
+    (3 * (t - 3)^2) * m
+      t = attack speed of weapon
+      m = 1.5 if 2h weapon, else 1
+  However, your attack rate is increased by 1 tick (does not count to the formula).
+
+Ruinous Covenant [97 Prayer]
+  Cannot be used with Gaunt Viscera.
+  While active, successful hits are guaranteed to deal at least 1 damage.
+  If Ruinous Covenant is enabled for at least 6 ticks, the next attack:
+    - is a guaranteed hit for 1 damage
+    - disables Ruinous Covenant after landing
+    - drains 36 Prayer Points (affected by Prayer Bonus) and 12 HP immediately.
+
+Perpetual Misfortune (Overhead) [98 Prayer]
+  While active, all of your successful attacks deal 60% of your maximum hit to a counter, applied on your target.
+  Every tick, the counter is reduced by 20% (minimum 1), and the amount reduced is dealt as damage to the target.
+  Disabling Perpetual Misfortune or changing targets resets the counter.
