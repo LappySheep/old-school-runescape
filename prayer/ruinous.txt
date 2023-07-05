@@ -20,7 +20,7 @@ Wrath (Overhead) [66 Prayer]
 
 
 Cruor's Vow [69 Prayer]
-  While active, attacks that deal at least 75% of your maximum hit, restore 4% of your missing health back (rounded down). If triggered, you drain 1.5 additional Prayer Points on that tick.
+  While active, attacks that deal at least 75% of your maximum hit, restore 12% of your missing health back (rounded down, max 8). If triggered, you drain 1.5 additional Prayer Points on that tick.
 
 
 
